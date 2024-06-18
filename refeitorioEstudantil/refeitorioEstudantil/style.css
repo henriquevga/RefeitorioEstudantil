@@ -1,0 +1,56 @@
+h1 {text-align: center;}
+nav {text-align: center;}
+.divHeader{
+    text-align:center;
+}
+#imglogo {
+    height: 150px;
+ 	width: 150px;
+}
+body {
+    margin-bottom:50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ccc;
+}
+
+.active {
+  background-color: #04AA6D;
+}footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+@media print {
+  div.divFooter {
+    position: fixed;
+    bottom: 0;
+  }
+  div.divHeader {
+    position: fixed;
+    top: 0;
+  }
+}
